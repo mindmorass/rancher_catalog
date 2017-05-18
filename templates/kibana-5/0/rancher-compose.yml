@@ -1,6 +1,6 @@
 .catalog:
   name: "Kibana"
-  version: "5.0.1"
+  version: "5.4.0"
   description: "Kibana: Explore & Visualize Your Data"
   questions:
     - variable: "elasticsearch_source"
