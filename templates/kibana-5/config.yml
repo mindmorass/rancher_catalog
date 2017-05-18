@@ -1,4 +1,4 @@
 name: "Kibana 5"
-description: "Visualization dashboard"
+description: Kibant 5.x - Visualization dashboard for elasticsearch
 version: "5.4.0"
 category: ELK
