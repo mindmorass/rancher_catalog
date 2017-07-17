@@ -1,9 +1,7 @@
-nginx:
-  scale: 1
-cachet:
-  scale: 1
-postgres:
-  scale: 1
+.catalog:
+  name: "Cachet"
+  version: "2.3.12"
+  description: "Cachet Monitoring Dashboard"
   questions:
     - variable: "POSTGRES_PASSWORD"
       description: |
