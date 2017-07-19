@@ -22,7 +22,7 @@ cachet:
   - 'postgres:'
   volumes:
   - cachetwww:/var/www
-  volume_driver: rancher-nfs
+  volume_driver: pxd
 postgres:
   environment:
     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
@@ -31,4 +31,4 @@ postgres:
   image: postgres:9.4
   volumes:
   - cachetpgsql:/var/lib/postgresql/data
-  volume_driver: rancher-nfs
+  volume_driver: pxd
