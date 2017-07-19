@@ -23,8 +23,6 @@ cachet:
   volumes:
   - cachetwww:/var/www
   volume_driver: pxd
-  labels:
-        io.rancher.scheduler.affinity:host_label: pxfabric=px-cluster1
 postgres:
   environment:
     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
@@ -34,5 +32,3 @@ postgres:
   volumes:
   - cachetpgsql:/var/lib/postgresql/data
   volume_driver: pxd
-  labels:
-        io.rancher.scheduler.affinity:host_label: pxfabric=px-cluster1
